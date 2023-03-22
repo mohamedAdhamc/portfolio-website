@@ -1,0 +1,33 @@
+.NavDiv {
+    display: inline-flex;
+    width: 60%;
+}
+
+.NavElements {
+    border: 2px solid transparent;
+    /* border-left: 2px solid #ff5e6c; */
+    margin-right: 0px;
+    padding-right: 30px;
+    transition: border 0.3s ease;
+  }
+  
+.NavElements:hover {
+    border-top: 2px solid #ff5e6c;
+    border-left: 2px solid transparent;
+    /* border-right: 2px solid #ff5e6c; */
+    border-bottom: 2px solid #ff5e6c;
+  }
+
+/* .NavElements:hover{
+    background-color: #ff5e6c;
+} */
+
+.NavElements{
+    margin: 2% 9%;
+    padding: 0.5% 0.25%;
+}
+
+.navBar{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}

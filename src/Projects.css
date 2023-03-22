@@ -1,0 +1,41 @@
+.projects {
+    margin-top: 0%;
+}
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2;
+    row-gap: 5%;
+    column-gap: 5%;
+    padding: 0.5% 2%;
+}
+
+.projectsElement{
+    background-color: #ffe082;
+    border: 3px solid black;
+    border-radius: 5%;
+    padding: 2% 2%;
+}
+.projectsPic{
+    width: 200px;
+    height: 200px;
+}
+
+.projectsElement:hover {
+    opacity: 60%;
+}
+
+.Header{
+    text-align: center;
+    margin: 2% auto;
+    width: 70vw;
+    border-bottom: 1.5px solid black;
+}
+
+.projectsContainer{
+    height: fit-content;
+    margin: 2%;
+    padding: 2% 2%;
+    border: 2px solid black;
+    border-radius: 1%;
+}
