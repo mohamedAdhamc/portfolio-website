@@ -9,27 +9,27 @@ const Projects = () => {
             </div>
             <div className="projects">
                 <div className="projectsElement">
-                    <img className="projectsPic" src={require('./etchSketch.png')} alt="cpp" />
+                    {/* <img className="projectsPic" src={require('./etchSketch.png')} alt="cpp" /> */}
                     <div>etch-A-sketch</div>
                 </div>
                 <div className="projectsElement">
-                <img className="projectsPic" src="" alt="cpp" />
+                {/* <img className="projectsPic" src="" alt="cpp" /> */}
                     <div>Graphical User Interface Improvements</div>
                 </div>
                 <div className="projectsElement">
-                    <img className="projectsPic" src="" alt="cpp" />
+                    {/* <img className="projectsPic" src="" alt="cpp" /> */}
                     <div>Payment App Simulator (console)</div>
                 </div>
                 <div className="projectsElement">
-                <img className="projectsPic" src={require('./etchSketch.png')} alt="React" />
-                <div>React</div>
+                {/* <img className="projectsPic" alt="React" /> */}
+                <div>calculatorJs</div>
                 </div>
                 <div className="projectsElement">
-                    <img className="projectsPic" src="" alt="cpp" />
-                    <div>Html/CSS</div>
+                    {/* <img className="projectsPic" src="" alt="cpp" /> */}
+                    <div>Portfolio Website</div>
                 </div>
                 <div className="projectsElement">
-                    <img className="projectsPic" src="" alt="javascript" />
+                    {/* <img className="projectsPic" src="" alt="javascript" /> */}
                     <div>JavaScript</div>
                 </div>
             </div>
