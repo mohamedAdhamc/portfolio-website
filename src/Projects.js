@@ -1,9 +1,10 @@
+import { forwardRef } from 'react';
 import './Projects.css'
 
 // TO DO : just make one component and supply it with props
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
     return (
-        <div className='projectsContainer'>
+        <div className='projectsContainer' ref= {ref}>
             <div className='Header'>
                 <h2 className='Headerh'>Projects</h2>
             </div>
@@ -35,6 +36,6 @@ const Projects = () => {
             </div>
         </div>
     );
-}
+});
  
 export default Projects;

@@ -1,0 +1,14 @@
+.generalContainer{
+    height: fit-content;
+    margin: 2%;
+    padding: 2% 2%;
+    border: 2px solid black;
+    border-radius: 1%;
+}
+
+.Header{
+    text-align: center;
+    margin: 2% auto;
+    width: 70vw;
+    border-bottom: 1.5px solid black;
+}
